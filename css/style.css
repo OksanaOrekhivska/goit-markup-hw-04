@@ -502,36 +502,12 @@ rgba(47, 48, 58, 0.4)),
   display: flex;
   align-items: center;
   justify-content: center;
-
+  margin: 0;
+  padding: 0; 
 }
 
 .our-cost-list .our-cost-element + .our-cost-element {
   margin-left: 30px;
-}
-
-.our-cost-svg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  fill: var(--snw);
-  width: 100px;
-  height: 100px;
-}
-
-.logo-one {
-  width: 44,27px;
-  height: 49,23px;
-}
-
-.our-cost-svg:hover {
-  fill: var(--blue-active);
-}
-
-.our-cost-element {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
 }
 
 .our-cost-link {
@@ -540,7 +516,15 @@ rgba(47, 48, 58, 0.4)),
   justify-content: center;
   width: 170px;
   height: 90px;
-  border: 1px solid var(--snw)
+  fill: var(--snw);
+  border: 1px solid var(--snw);
+  border-radius: 4px;
+}
+
+.our-cost-link:hover, 
+.our-cost-link:focus { 
+  fill: var(--blue-active);
+  border: 1px solid var(--blue-active);
 }
 
 /* footer */
@@ -582,6 +566,7 @@ rgba(47, 48, 58, 0.4)),
   line-height: 1.71;
 }
   
+
 .contact-links .contact-l:hover,
 .contact-links .contact-l:focus {
   color: var(--blue-active);
@@ -603,6 +588,26 @@ rgba(47, 48, 58, 0.4)),
   
 .accent {
   color: var(--blue-active);
+}
+
+.join-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.footer-join {
+  display: flex;
+}
+
+.footer-link {
+  width: 20px;
+  height: 20px;
+  fill: var(--white);
 }
   
 <!-- сторінка портфоліо -->
