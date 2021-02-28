@@ -481,7 +481,60 @@ rgba(47, 48, 58, 0.4)),
   
 }
 
+/*ПОСТІЙНІ КЛІЄНТИ */
+
+.our-costumers > .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.our-cost-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1,16px;
+  color: var(--black-text);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.our-cost-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-cost-list .our-cost-element + .our-cost-element {
+  margin-left: 30px;
+}
+
+.our-cost-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--snw);
+  width: 100px;
+  height: 100px;
+}
+
+.our-cost-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+}
+
+.our-cost-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+}
+
 /* footer */
+
 .footer {
   background-color: var(--background);
 }
