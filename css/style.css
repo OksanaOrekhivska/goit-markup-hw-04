@@ -16,9 +16,11 @@
   --white-text-op60: rgba(255, 255, 255, 0.6);
   
   --black: #000000;
+  --snw: #AFB1B8;
 
 
   --dist-cards: 30px; 
+
 }
 
 
@@ -105,6 +107,25 @@ a {
 
 .contact-links {
   margin-left: auto;
+  align-items: center;
+}
+
+.links-mail-svg {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.links-tel-svg {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.item .links {
+  display: flex;
   align-items: center;
 }
 
@@ -206,12 +227,16 @@ a {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/Img\ 17.jpg);
+  background-image: linear-gradient(
+  to right,
+rgba(47, 48, 58, 0.4),
+rgba(47, 48, 58, 0.4)),
+  url(../img/Img\ 17.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
 }
-
 
 .hero-title {
   width: 696px;
@@ -285,6 +310,22 @@ a {
   font-size: 14px;
   line-height: 1.71;
   color: var(--black-light);
+}
+
+.list-svg {
+  width: 70px;
+  height: 70px;
+  fill: currentColor;
+}
+
+.icons-svg {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bac-dark-grey);
+  margin-bottom: 30px;
 }
   
 /*наша робота*/
@@ -400,6 +441,45 @@ a {
   margin-top: 10px;
 }
 
+.link-svg {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--snw)
+}
+
+.element-svg .link-svg {
+  color: var(--snw);
+}
+  
+.element-svg .link-svg:hover,
+.element-svg .link-svg:focus {
+  background-color: var(--blue-active);
+  color: var(--white);
+}
+
+.element-svg .elements-snw + .elements-snw {
+  margin-left: 10px;
+}
+
+.element-svg {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.link-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-snw {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  
+}
 
 /* footer */
 .footer {
@@ -594,7 +674,7 @@ a {
 }
 
 .card-content {
-  padding: 20px 24px;
+  padding: 30px 32px;
 }
 
 .element-card {
