@@ -502,6 +502,7 @@ rgba(47, 48, 58, 0.4)),
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .our-cost-list .our-cost-element + .our-cost-element {
@@ -517,12 +518,20 @@ rgba(47, 48, 58, 0.4)),
   height: 100px;
 }
 
+.logo-one {
+  width: 44,27px;
+  height: 49,23px;
+}
+
+.our-cost-svg:hover {
+  fill: var(--blue-active);
+}
+
 .our-cost-element {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
-  height: 90px;
+  
 }
 
 .our-cost-link {
@@ -531,6 +540,7 @@ rgba(47, 48, 58, 0.4)),
   justify-content: center;
   width: 170px;
   height: 90px;
+  border: 1px solid var(--snw)
 }
 
 /* footer */
