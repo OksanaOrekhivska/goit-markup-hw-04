@@ -423,6 +423,9 @@ rgba(47, 48, 58, 0.4)),
 
 .card {
   border-radius: 5px;
+  box-shadow: 0 2px 1px 0 var(--black) 20%,
+    0 1px 1px 0 var(--black) 14%,
+    0 1px 3px 0 var(--black) 20%;
 }
 
 .our-team-list > .item {
@@ -533,9 +536,18 @@ rgba(47, 48, 58, 0.4)),
   background-color: var(--background);
 }
 
+.footer > .container {
+  display: flex;
+  align-items: center;
+}
+
 .footer >.container {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.join-box {
+  margin-left: 70px;
 }
 
 .address {
@@ -544,7 +556,6 @@ rgba(47, 48, 58, 0.4)),
   font-size: 14px;
   line-height: 1.71;
 }
-   
 
 .address {
   color: var(--white);
@@ -566,7 +577,6 @@ rgba(47, 48, 58, 0.4)),
   line-height: 1.71;
 }
   
-
 .contact-links .contact-l:hover,
 .contact-links .contact-l:focus {
   color: var(--blue-active);
@@ -590,6 +600,7 @@ rgba(47, 48, 58, 0.4)),
   color: var(--blue-active);
 }
 
+
 .join-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -600,16 +611,35 @@ rgba(47, 48, 58, 0.4)),
   margin-bottom: 20px;
 }
 
-.footer-join {
-  display: flex;
-}
+.element-svg-footer .link-svg {
+  color: var(--white);
 
-.footer-link {
-  width: 20px;
-  height: 20px;
-  fill: var(--white);
 }
   
+.element-svg-footer .link-svg:hover,
+.element-svg-footer .link-svg:focus {
+  background-color: var(--blue-active);
+  color: var(--white);
+}
+
+.element-svg-footer .elements-snw + .elements-snw {
+  margin-left: 10px;
+}
+
+.element-svg-footer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.element-svg-footer > .link-svg {
+  background: linear-gradient(
+  to right,
+rgba(255, 255, 255, 0.1),
+rgba(255, 255, 255, 0.1));
+  background-repeat: no-repeat;
+}
+
 <!-- сторінка портфоліо -->
   
 .filter-element {
@@ -644,8 +674,6 @@ rgba(47, 48, 58, 0.4)),
 
 .container-portfolio {
   background-color: var(--bac-gray);
-
-  
 }
     
 .btn-box {
