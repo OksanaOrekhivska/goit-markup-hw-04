@@ -613,13 +613,13 @@ rgba(47, 48, 58, 0.4)),
   margin-top: 12px;
 }
 
-.element-svg-footer .link-svg {
+.element-svg-footer .link-svg-footer {
   color: var(--white);
 
 }
   
-.element-svg-footer .link-svg:hover,
-.element-svg-footer .link-svg:focus {
+.element-svg-footer .link-svg-footer:hover,
+.element-svg-footer .link-svg-footer:focus {
   background-color: var(--blue-active);
   color: var(--white);
 }
@@ -639,7 +639,6 @@ rgba(47, 48, 58, 0.4)),
   to right,
 rgba(255, 255, 255, 0.1),
 rgba(255, 255, 255, 0.1));
-  background-repeat: no-repeat;
 }
 
 .link-svg-footer {
