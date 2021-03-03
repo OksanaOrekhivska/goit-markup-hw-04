@@ -610,6 +610,7 @@ rgba(47, 48, 58, 0.4)),
   font-style: normal;
   color: var(--white);
   margin-bottom: 20px;
+  margin-top: 12px;
 }
 
 .element-svg-footer .link-svg {
@@ -639,6 +640,33 @@ rgba(47, 48, 58, 0.4)),
 rgba(255, 255, 255, 0.1),
 rgba(255, 255, 255, 0.1));
   background-repeat: no-repeat;
+}
+
+.link-svg-footer {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--snw)
+}
+
+.link-svg-footer {
+  background-color: var(--background);
+}
+
+.element-svg .link-svg-footer {
+  color: var(--snw);
+}
+  
+.element-svg .link-svg-footer:hover,
+.element-svg .link-svg-footer:focus {
+  background-color: var(--blue-active);
+  color: var(--white);
+}
+
+.link-svg-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 <!-- сторінка портфоліо -->
