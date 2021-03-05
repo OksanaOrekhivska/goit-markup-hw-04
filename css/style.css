@@ -539,7 +539,7 @@ rgba(47, 48, 58, 0.4)),
 
 .footer > .container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .footer >.container {
@@ -610,7 +610,6 @@ rgba(47, 48, 58, 0.4)),
   font-style: normal;
   color: var(--white);
   margin-bottom: 20px;
-  margin-top: 12px;
 }
 
 .element-svg-footer .link-svg-footer {
@@ -631,7 +630,6 @@ rgba(47, 48, 58, 0.4)),
 .element-svg-footer {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
 }
 
 .link-svg-footer {
